@@ -45,4 +45,10 @@ The Open Fashion App is a React Native application that showcases a variety of f
     npx react-native run-ios
     ```
 
-## Project Structure
+### Assets
+- Logo.png: Logo image for the header
+- dress1.png to dress7.png: Images of the products
+  
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
