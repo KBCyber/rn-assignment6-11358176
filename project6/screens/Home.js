@@ -1,5 +1,3 @@
-// screens/HomeScreen.js
-
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, Image, ImageBackground, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -22,22 +20,22 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Icon name="menu-outline" size={30} color="#000" style={styles.headerIcon} />
+      <Image source={require('../assets/Menu.png')} style={styles.menuIcon} />
         <View style={styles.logoContainer}>
           <Image source={require('../assets/Logo.png')} style={styles.logo} />
         </View>
         <View style={styles.headerRight}>
           <Icon name="search-outline" size={30} color="#000" style={styles.headerIcon} />
           <TouchableOpacity onPress={() => navigation.navigate('Checkout')}>
-            <Icon name="cart-outline" size={30} color="#000" style={styles.headerIcon} />
+            <Icon name="bag-outline" size={30} color="#000" style={styles.headerIcon} />
           </TouchableOpacity>
         </View>
       </View>
       <View style={styles.storyContainer}>
         <Text style={styles.title}>OUR STORY</Text>
         <View style={styles.iconContainer}>
-          <Icon name="grid-outline" size={30} color="#000" style={styles.headerIcon} />
-          <Icon name="filter-outline" size={30} color="#000" style={styles.headerIcon} />
+        <Image source={require('../assets/Listview-01.png')} style={styles.icon} />
+          <Icon name="filter" size={25} color="#dd8560" style={styles.headerIcon} />
         </View>
       </View>
       <FlatList
@@ -48,7 +46,7 @@ const HomeScreen = () => {
         renderItem={({ item }) => (
           <View style={styles.product}>
             <ImageBackground source={item.image} style={styles.image}>
-              <Icon name="add-outline" size={30} color="#000" style={styles.addIcon} />
+              <Image source={require('../assets/add.png')} style={styles.addicon}/>
             </ImageBackground>
             <Text style={styles.productName}>{item.name}</Text>
             <Text style={styles.productDesc}>reversible angora cardigan</Text>
@@ -77,15 +75,25 @@ const styles = StyleSheet.create({
   headerIcon: {
     marginLeft: 15,
   },
+  menuIcon: {
+    marginLeft: 15,
+    height:  30,
+    width:  30,
+  },
+  icon: {
+    width: 25,
+    height: 25,
+    marginRight: 10,
+  },
   logoContainer: {
     position: 'absolute',
     left: '50%',
     top: 20,
-    transform: [{ translateX: -100 }], // Adjust according to the new logo width
+    transform: [{ translateX: -100 }],
   },
   logo: {
-    width: 200, // Adjust width as needed
-    height: 50, // Adjust height as needed
+    width: 200,
+    height: 50, 
     resizeMode: 'contain',
   },
   headerRight: {
@@ -96,12 +104,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 20,
+    paddingHorizontal: 10,
     marginVertical: 20,
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: '350',
+    lineHeight: 24,
+    letterSpacing: 5,
   },
   iconContainer: {
     flexDirection: 'row',
@@ -109,13 +119,18 @@ const styles = StyleSheet.create({
   productList: {
     paddingHorizontal: 10,
   },
+  addicon:{
+    margin: 10,
+    height: 25,
+    width: 25,
+  },
   product: {
     flex: 1,
-    margin: 10,
+    margin: 5,
   },
   image: {
     width: '100%',
-    height: 300,
+    height: 260,
     resizeMode: 'cover',
     justifyContent: 'flex-end',
     alignItems: 'flex-end',
@@ -135,7 +150,7 @@ const styles = StyleSheet.create({
   productPrice: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: 'red',
+    color: '#dd8560',
   },
 });
 
