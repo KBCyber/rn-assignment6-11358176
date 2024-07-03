@@ -53,7 +53,7 @@ const HomeScreen = () => {
       <View style={styles.storyContainer}>
         <Text style={styles.title}>OUR STORY</Text>
         <View style={styles.iconContainer}>
-          <View  style={styles.icong}><Image source={require('../assets/Listview-01.png')} style={styles.icon} /></View>
+          <View  style={styles.icong}><Image source={require('../assets/Listview.png')} style={styles.icon} /></View>
           <View  style={styles.icong}><Icon name="filter" size={25} color="#dd8560" style={styles.headerIcon} /></View>
         </View>
       </View>
