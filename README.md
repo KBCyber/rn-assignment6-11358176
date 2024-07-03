@@ -127,7 +127,7 @@ useEffect(() => {
    0"/>
 
 ### More of the `CartScreen`
-  <img src="./project6/assets/shot3.png" alt="CartScreen" width="240"/>
+  <img src="../project6/assets/shot3.png" alt="CartScreen" width="240"/>
   <img src="./project6/assets/shot4.png" alt="CartScreen" width="240"/>
 
 ### More
