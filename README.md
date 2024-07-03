@@ -132,6 +132,8 @@ useEffect(() => {
 
 ### More
   <img src="./project6/assets/Screenshots/Shot6.png" alt="CartScreen" width="240"/>
+  <img src="./project6/assets/Screenshots/Shot6.png" alt="CartScreen" width="240"/>
+  <img src="./project6/assets/Screenshots/Shot6.png" alt="CartScreen" width="240"/>
   <img src="./project6/assets/Screenshots/shot5.png" alt="CartScreen" width="240"/>
 </div>
 
