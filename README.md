@@ -121,18 +121,18 @@ useEffect(() => {
 
 ### `HomeScreen` and `CartScreen`
 
-   <img src="./project6/assets/Screenshots/shot.png" alt="HomeScreen" width="200"/>
-   <img src="./project6/assets/Screenshots/shot1.png" alt="HomeScreen" width="200"/>
-   <img src="./project6/assets/Screenshots/shot2.png" alt="HomeScreen" width="20
+   <img src="project6/assets/Screenshots/shot.jpeg" alt="HomeScreen" width="200"/>
+   <img src="project6/assets/Screenshots/shot1.jpeg" alt="HomeScreen" width="200"/>
+   <img src="project6/assets/Screenshots/shot2.jpeg" alt="HomeScreen" width="20
    0"/>
 
 ### More of the `CartScreen`
-  <img src="./project6/assets/Screenshots/shot3.png" alt="CartScreen" width="240"/>
-  <img src="./project6/assets/Screenshots/shot4.png" alt="CartScreen" width="240"/>
+  <img src="project6/assets/Screenshots/shot3.jpeg" alt="CartScreen" width="240"/>
+  <img src="project6/assets/Screenshots/shot4.jpeg" alt="CartScreen" width="240"/>
 
 ### More
-  <img src="./project6/assets/Screenshots/Shot6.png" alt="CartScreen" width="240"/>
-  <img src="./project6/assets/Screenshots/shot5.png" alt="CartScreen" width="240"/>
+  <img src="project6/assets/Screenshots/Shot6.jpeg" alt="CartScreen" width="240"/>
+  <img src="project6/assets/Screenshots/shot5.jpeg" alt="CartScreen" width="240"/>
 </div>
 
 ### Assets
