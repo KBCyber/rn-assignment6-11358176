@@ -121,7 +121,7 @@ useEffect(() => {
 
 ### `HomeScreen` and `CartScreen`
 
-   <img src="./project6/assets/Screenshots/shot.png" alt="HomeScreen" width="200"/>
+   <img src="./project6/assets/Screenshots/Shot6.png" alt="CartScreen" width="240"/>
    <img src="./project6/assets/Screenshots/shot1.png" alt="HomeScreen" width="200"/>
    <img src="./project6/assets/Screenshots/shot2.png" alt="HomeScreen" width="20
    0"/>
